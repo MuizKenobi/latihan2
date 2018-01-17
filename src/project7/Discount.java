@@ -23,7 +23,7 @@ public class Discount {
         System.out.println("Sila masukkan jumlah harga pembelian anda: ");
         amount= input.nextDouble();
         
-        if (amount<1000){
+        if (amount<10000){
             discount='0';
             
         }
